@@ -8,6 +8,21 @@
   background-color: #171a21;
 }
 
+body{
+  margin: 0
+}
+
+.Content{
+  margin: 0 8px;
+}
+
 @layer reset, base, tokens, recipes, utilities;
+
+.img-card{
+  width: 100%;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+}
 
 
